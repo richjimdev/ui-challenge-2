@@ -10,7 +10,7 @@
 </head>
 <body>
   <main>
-    <form>
+    <form id="challenge-form">
       <h1>UI Challenge - Custom Form Elements</h1>
         <p>text input:</p>
         <input type="text" name="text-input" placeholder="placeholder text" required>
@@ -36,7 +36,7 @@
         <input type="radio" name="radioGroup" value="1" id="r1" class="radioCheckBox radio-empty">
         <input type="radio" name="radioGroup" value="2" id="r2" class="radioCheckBox radio-empty">
 
-        <input type="submit" value="Submit">
+        <button type="submit" form="challenge-form" value="Submit">Submit</button>
     </form>
   </main>
   <script

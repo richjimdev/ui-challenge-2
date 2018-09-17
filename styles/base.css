@@ -7,7 +7,6 @@ main {
   width: 500px;
   margin: auto;
   padding: 50px 200px;
-  /* text-align: center; */
 }
 
 .spriteCheckBox {
@@ -50,4 +49,26 @@ input[type=radio]{
 
 .radio-checked {
   background-position: -812px -242px;
+}
+
+select {
+  background-image: url('../img/form-elements-sprite.png');
+  background-repeat: no-repeat;
+  background-position: -1143px -280px;
+	width: 77px;
+  height: 77px;
+  -webkit-appearance: none;
+  padding-right: 400px;
+  display: block;
+}
+
+button {
+  display: block;
+  width: 150px;
+  height: 65px;
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: gray;
 }
