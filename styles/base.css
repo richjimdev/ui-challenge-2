@@ -1,3 +1,15 @@
+body {
+  background-color: darkgray;
+}
+
+main {
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  padding: 50px 200px;
+  /* text-align: center; */
+}
+
 .spriteCheckBox {
   background-image: url('../img/form-elements-sprite.png');
   background-repeat: no-repeat;
