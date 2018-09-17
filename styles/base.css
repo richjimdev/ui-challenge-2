@@ -1,0 +1,19 @@
+.spriteCheckBox {
+  background-image: url('../img/form-elements-sprite.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+	width: 161px;
+	height: 160px;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+.checkbox-empty {
+  background-position: -158px -239px;
+}
+
+.checkbox-checked {
+  background-position: -381px -239px;
+}
