@@ -1,0 +1,74 @@
+body {
+  background-color: darkgray;
+}
+
+main {
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  padding: 50px 200px;
+}
+
+.spriteCheckBox {
+  background-image: url('../img/form-elements-sprite.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+	width: 161px;
+	height: 160px;
+}
+
+input[type=checkbox]{
+  display: none;
+}
+
+input[type=radio]{
+  /* display: hidden; */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.checkbox-empty {
+  background-position: -158px -239px;
+}
+
+.checkbox-checked {
+  background-position: -381px -239px;
+}
+
+.radioCheckBox {
+  background-image: url('../img/form-elements-sprite.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+	width: 167px;
+	height: 166px;
+}
+
+.radio-empty {
+  background-position: -582px -242px;
+}
+
+.radio-checked {
+  background-position: -812px -242px;
+}
+
+select {
+  background-image: url('../img/form-elements-sprite.png');
+  background-repeat: no-repeat;
+  background-position: -1143px -280px;
+	width: 77px;
+  height: 77px;
+  -webkit-appearance: none;
+  padding-right: 400px;
+  display: block;
+}
+
+button {
+  display: block;
+  width: 150px;
+  height: 65px;
+  margin-top: 50px;
+}
+
+button:hover {
+  background-color: gray;
+}
