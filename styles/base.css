@@ -10,10 +10,32 @@ input[type=checkbox]{
   display: none;
 }
 
+input[type=radio]{
+  /* display: hidden; */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 .checkbox-empty {
   background-position: -158px -239px;
 }
 
 .checkbox-checked {
   background-position: -381px -239px;
+}
+
+.radioCheckBox {
+  background-image: url('../img/form-elements-sprite.png');
+  background-repeat: no-repeat;
+  display: inline-block;
+	width: 167px;
+	height: 166px;
+}
+
+.radio-empty {
+  background-position: -582px -242px;
+}
+
+.radio-checked {
+  background-position: -812px -242px;
 }
