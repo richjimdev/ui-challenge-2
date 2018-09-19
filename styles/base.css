@@ -51,15 +51,8 @@ input[type=radio]{
   background-position: -812px -242px;
 }
 
-select {
-  background-image: url('../img/form-elements-sprite.png');
-  background-repeat: no-repeat;
-  background-position: -1143px -280px;
-	width: 77px;
-  height: 77px;
-  -webkit-appearance: none;
-  padding-right: 400px;
-  display: block;
+select option:nth-of-type(odd) {
+  background-color: rgb(83, 83, 83);
 }
 
 button {
@@ -71,4 +64,8 @@ button {
 
 button:hover {
   background-color: gray;
+}
+
+.error-text {
+  color: red;
 }
